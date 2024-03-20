@@ -13,10 +13,10 @@ st.write("""
  To show who is more likely to have diabetes 
 """)
 
-image = Image.open('C:/Users/xreav/ML project/diabetes.jpg')
+image = Image.open('{DIR}')
 st.image(image, caption='Machine Learning', use_column_width=True)
 
-df = pd.read_csv('C:/Users/xreav/ML project/diabetes.csv')
+df = pd.read_csv('{DIR}')
 
 st.subheader('Data Information:')
 
